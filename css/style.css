@@ -977,6 +977,9 @@ section.home.light .social-icons li a:hover {
 .portfolio-item .thumb {
   overflow: hidden;
 }
+.portfolio-item .thumb img{
+  width: 100%;
+}
 .portfolio-item .details {
   color: #FFF;
   position: absolute;
@@ -1382,11 +1385,8 @@ select.portfolio-filter-mobile {
 }
 
 .scroll-down {
-  position: absolute;
-  bottom: 40px;
-  left: 0;
+  margin-top: 2em;
   width: 100%;
-  z-index: 1;
 }
 .scroll-down.light span {
   color: #454360;

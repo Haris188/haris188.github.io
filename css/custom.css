@@ -29,3 +29,7 @@
 .second-btn{
     left: 3.5em !important;
 }
+.avatar{
+    max-width: 10em;
+    margin-bottom: 2em;
+}
